@@ -45,7 +45,16 @@ namespace StackUsingSingleLinkList
         }
         public void display()
         {
+            node tmp;
+            if(empty())
+                Console.WriteLine("\nStack Empty");
+            else
+            {
+                for(tmp = top; tmp !=null; tmp = tmp.next)
+                {
 
+                }
+            }
         }
     }
 }
