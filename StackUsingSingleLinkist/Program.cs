@@ -79,7 +79,10 @@ namespace StackUsingSingleLinkList
                         s.push(num);
                         break;
                     case '2':
-
+                        if(s.empty())
+                        {
+                            Console.WriteLine();
+                        }
                 }
             }
         }
