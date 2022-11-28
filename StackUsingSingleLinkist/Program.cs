@@ -70,9 +70,15 @@ namespace StackUsingSingleLinkList
                 Console.WriteLine("4.Exit");
                 Console.Write("\nEnter your choice: ");
                 string input = Console.ReadLine();
-                char ch = Convert.ToChar(input == "" ? "0" : input)
+                char ch = Convert.ToChar(input == "" ? "0" : input);
                 switch (ch)
                 {
+                    case '1':
+                        Console.Write("\nEnter a number:");
+                        int num = Convert.ToInt32(Console.ReadLine());
+                        s.push(num);
+                        break;
+                    case '2':
 
                 }
             }
