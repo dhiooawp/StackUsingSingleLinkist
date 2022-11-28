@@ -81,8 +81,11 @@ namespace StackUsingSingleLinkList
                     case '2':
                         if(s.empty())
                         {
-                            Console.WriteLine();
+                            Console.WriteLine("\nStack Empty");
+                            break;
                         }
+                        s.pop();
+                        break;
                 }
             }
         }
