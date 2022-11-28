@@ -59,7 +59,11 @@ namespace StackUsingSingleLinkList
         static void main(string[] args)
         {
             stack s = new stack();
-            while
+            while (true)
+            {
+                Console.WriteLine();
+
+            }
         }
     }
 }
