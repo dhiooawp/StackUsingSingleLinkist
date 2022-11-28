@@ -52,9 +52,14 @@ namespace StackUsingSingleLinkList
             {
                 for(tmp = top; tmp !=null; tmp = tmp.next)
                 {
-
+                    Console.WriteLine(tmp.info);
                 }
             }
+        }
+        static void main(string[] args)
+        {
+            stack s = new stack();
+            while
         }
     }
 }
