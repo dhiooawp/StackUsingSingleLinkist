@@ -9,7 +9,7 @@ namespace StackUsingSingleLinkList
     {
         public int info;
         public node next;
-        public node(int i, int n)
+        public node(int i, node n)
         {
             info = i;
             next = n;
@@ -37,6 +37,15 @@ namespace StackUsingSingleLinkList
             fresh.next = top;
             top = fresh;
             Console.WriteLine("\n" + element + "pushed");
+        }
+        public void pop()
+        {
+            Console.WriteLine("\n the poped elements is:" + top.info);
+            top = top.next;
+        }
+        public void display()
+        {
+
         }
     }
 }
